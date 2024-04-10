@@ -117,7 +117,7 @@ if ( !empty( $_POST[ 'save_options' ] ) && ( check_admin_referer( 'footnotes-non
 			<label for="no_display_feed"><input type="checkbox" name="no_display_feed" id="no_display_feed" <?php checked( $this->current_options[ 'no_display_feed' ], true ); ?> />&nbsp;<?php _e( 'In the feed (RSS, Atom, etc.)', 'footnotes-made-easy' ); ?></label></br>
 			<label for="no_display_archive"><input type="checkbox" name="no_display_archive" id="no_display_archive" <?php checked( $this->current_options[ 'no_display_archive' ], true ); ?> />&nbsp;<?php echo __( ucwords( 'in any kind of archive' ), 'footnotes-made-easy' ); ?></label></br>
 			<label for="no_display_category"><input type="checkbox" name="no_display_category" id="no_display_category" <?php checked( $this->current_options[ 'no_display_category' ], true ); ?> />&nbsp;<?php echo __( ucwords( 'in category archives' ), 'footnotes-made-easy' ); ?></label></br>
-			<label for="no_display_date"><input type="checkbox" name="no_display_date" id="no_display_date" <?php checked( $this->current_options[ 'no_display_date' ], true ); ?> />&nbsp;<?php _e( 'in date-based archives', 'footnotes-made-easy' ); ?></label></br>
+			<label for="no_display_date"><input type="checkbox" name="no_display_date" id="no_display_date" <?php checked( $this->current_options[ 'no_display_date' ], true ); ?> />&nbsp;<?php _e( 'In date-based archives', 'footnotes-made-easy' ); ?></label></br>
 
 			</td></tr>
 
